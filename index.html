@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>1C Fresh</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20230321190515">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<picture><source srcset="img/header-top.webp" type="image/webp"><img class="header__logo-bg" src="img/header-top.png" alt=""></picture>
+					<a href="#">
+						Fresh
+						<picture><source srcset="img/logo.webp" type="image/webp"><img class="header__logo-1c" src="img/logo.png" alt=""></picture>
+					</a>
+				</div>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li><a href="#" class="menu__link" data-goto=".what">Описание сервиса</a></li>
+							<li><a href="#" class="menu__link" data-goto=".programs">Программы 1CFresh</a></li>
+							<li><a href="#" class="menu__link" data-goto=".prices">Цены</a></li>
+							<li><a href="#" class="menu__link" data-goto=".safety">Безопасность</a></li>
+						</ul>
+					</nav>
+				</div>
+				<a href="tel:89995675544" class="header__tel">8 (999) 567 55 44</a>
+				<button type="button" class="menu__icon icon-menu">
+					<span></span>
+				</button>
+			</div>
+		</header>
+		<main class="page">
+			<section class="hero">
+				<div class="hero-cloud hero-cloud--1" data-prlx-mouse data-prlx-cx="70" data-prlx-cy="70">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero-cloud hero-cloud--2" data-prlx-mouse data-prlx-cx="30" data-prlx-cy="30">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero-cloud hero-cloud--3" data-prlx-mouse data-prlx-cx="20" data-prlx-cy="20">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero-cloud hero-cloud--4" data-prlx-mouse data-prlx-cx="70" data-prlx-cy="70">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero-cloud hero-cloud--5" data-prlx-mouse data-prlx-cx="30" data-prlx-cy="30">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero-cloud hero-cloud--6" data-prlx-mouse data-prlx-cx="20" data-prlx-cy="20">
+					<img src="img/cloud.svg" alt="">
+				</div>
+				<div class="hero__container">
+					<h1 class="hero__title">
+						1CFresh - программы 1С онлайн<br> для бухгалтеров и предпринимателей
+					</h1>
+					<h2 class="hero__subtitle">
+						1С:Предприятие БЕСПЛАТНО 30 дней
+					</h2>
+					<div class="hero__access">
+						<div class="hero__text">Получите доступ сейчас</div>
+						<form data-ajax method="POST" data-popup-message=".popup-response" class="hero__form form" action="sendmail.php">
+							<div class="hero-form__column">
+								<div class="form__input">
+									<input data-required type="text" name="name" autocomplete="off" placeholder="Имя..." data-error="Введите имя">
+								</div>
+								<div class="form__input">
+									<input class="phone" data-required type="tel" name="phone" autocomplete="off" placeholder="Номер телефона..." data-error="Введите корректный номер телефона">
+								</div>
+							</div>
+							<div class="hero-form__column">
+								<div class="form__input">
+									<input class="email" id="form-mail" data-required="email" data-error="Введите E-mail" type="text" name="mail" placeholder="Электронная почта...">
+								</div>
+								<button type="submit" class="form__btn">
+									Зарегистрироваться
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</section>
+			<section class="what">
+				<div class="what__container">
+					<h2 class="what__title _title">Что такое <span>1CFresh</span></h2>
+					<div class="what__subtitle">
+						Хотите начать работу с типовыми программами 1C за 5 минут?
+					</div>
+					<div class="what__items">
+						<div class="what__item">
+							<picture><source srcset="img/what/1.webp" type="image/webp"><img class="what__img" src="img/what/1.png" alt=""></picture>
+							<div class="what__text">
+								Отправьте E-mail
+							</div>
+						</div>
+						<span class="what__arrow">
+							<img src="img/icons/arrow-left.svg" alt="">
+						</span>
+						<div class="what__item">
+							<picture><source srcset="img/what/2.webp" type="image/webp"><img class="what__img" src="img/what/2.png" alt=""></picture>
+							<div class="what__text">
+								Отправьте E-mail
+							</div>
+						</div>
+						<span class="what__arrow">
+							<img src="img/icons/arrow-left.svg" alt="">
+						</span>
+						<div class="what__item">
+							<picture><source srcset="img/what/3.webp" type="image/webp"><img class="what__img" src="img/what/3.png" alt=""></picture>
+							<div class="what__text">
+								Работайте
+							</div>
+						</div>
+					</div>
+					<div class="what__bottom">
+						<p>
+							У вас есть <span>30 дней на принятие решения</span> о покупке сервиса.
+						</p>
+						<p>
+							Владение сервисом экономит деньги на закупку серверов, лицензий 1C и Windows,
+							администрирование и обновление программ.
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="programs">
+				<div class="programs__container">
+					<h2 class="programs__title _title">
+						Программы <span>1CFresh</span>
+					</h2>
+					<div class="programs__subtitle">
+						Только для типовых конфигураций 1С
+					</div>
+					<div class="programs__text">
+						Выберите продукты, которые хотите подключить
+					</div>
+					<div class="programs__items">
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Бухгалтерия
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Предприниматель 2015
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Управление нашей фирмой
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Касса
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Управление нашей фирмой
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Комплексная автоматизация 2.0
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Зарплата и управление персоналом 8
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:КАМИН:Зарплата
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+						<div class="programs__item item-programs">
+							<span></span><span></span><span></span><span></span><span></span>
+							<div class="item-programs__title">
+								1С:Бухгалтерия государственного учреждения
+							</div>
+							<div class="item-programs__text">
+								Бухгалтерский и налоговый учет, сдача
+								отчетности через Интернет - для ИП и
+								организаций: все участки учета, любая
+								система налогообложения (ОСНО, ЕНВД,
+								УСН), любой вид деятельости.
+							</div>
+						</div>
+					</div>
+					<div class="programs__begin">
+						<div class="programs__begin-title">
+							Начать прямо сейчас
+						</div>
+						<form data-ajax method="POST" data-popup-message=".popup-response" class="begin__form form" action="sendmail.php">
+							<div class="programs__chosen">
+							</div>
+							<div class="form__input">
+								<input data-required type="text" name="name" autocomplete="off" placeholder="Имя..." data-error="Введите имя">
+							</div>
+							<div class="form__input">
+								<input class="phone" data-required type="tel" name="phone" autocomplete="off" placeholder="Номер телефона..." data-error="Введите корректный номер телефона">
+							</div>
+							<div class="form__input">
+								<input class="email" id="form-mail" data-required="email" data-error="Введите E-mail" type="text" name="mail" placeholder="Электронная почта...">
+							</div>
+							<button type="submit" class="form__btn prog__btn">
+								Подключить все
+							</button>
+						</form>
+					</div>
+				</div>
+				<div class="programs__waves">
+					<img src="img/waves3.svg" alt="">
+				</div>
+			</section>
+			<section class="free-list">
+				<div class="free-list__container">
+					<h2 class="free-list _title">
+						Список <span>бесплатных</span> сервисов для 1CFresh
+					</h2>
+					<div class="free-list__items">
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+							<div class="free-list__footnote">
+								Бесплатно только в тарифе ПРОФ
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+						<div class="free-list__item">
+							<div class="free-list__text">
+								1С-отчетность - сдача отчетности в госорганы онлайн
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="prices">
+				<div class="prices__container">
+					<h2 class="prices__title _title">
+						Цены и тарифы <span>1CFresh</span>
+					</h2>
+					<div class="prices__items">
+						<div class="prices__item item-prices">
+							<h3 class="item-prices__title">
+								ТЕХНО
+							</h3>
+							<div class="item-prices__price">
+								от 1044 руб/мес
+							</div>
+							<ul class="item-prices__items">
+								<li class="item-prices__item">
+									2 пользователя одновременно
+								</li>
+								<li class="item-prices__item">
+									1 программа 1с на выбор
+								</li>
+								<li class="item-prices__item">
+									1 информационная база
+								</li>
+							</ul>
+							<button class="item-prices__btn" data-popup=".popup-order">
+								Заказать
+							</button>
+						</div>
+						<div class="prices__item item-prices">
+							<h3 class="item-prices__title">
+								ПРОФ
+							</h3>
+							<div class="item-prices__price">
+								от 2472 руб/мес
+							</div>
+							<ul class="item-prices__items">
+								<li class="item-prices__item">
+									5 пользователей одновременно
+								</li>
+								<li class="item-prices__item">
+									7 программ 1с на выбор
+								</li>
+								<li class="item-prices__item">
+									Неограниченное количество
+									информационных баз
+								</li>
+								<li class="item-prices__item">
+									Бесплатная 1с-отчетность
+								</li>
+								<li class="item-prices__item">
+									Доступ к 1с:ИТС
+								</li>
+							</ul>
+							<button class="item-prices__btn" data-popup=".popup-order">
+								Заказать
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="opportunities">
+				<div class="opportunities__container">
+					<h2 class="opportunities__title _title">
+						Ваши <span>возможности</span> с сервисом 1CFresh
+					</h2>
+					<div class="opportunities__items">
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/1.webp" type="image/webp"><img src="img/opportunities/1.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Доступ с компьютера и телефона
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/2.webp" type="image/webp"><img src="img/opportunities/2.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Автоматическое обновление программ
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/3.webp" type="image/webp"><img src="img/opportunities/3.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Обмен данными между программами
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/4.webp" type="image/webp"><img src="img/opportunities/4.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Сдача отчетов в регламентирующие органы
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/5.webp" type="image/webp"><img src="img/opportunities/5.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Хранение ключа электронной подписи
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img opportunities__img--big">
+								<picture><source srcset="img/opportunities/6.webp" type="image/webp"><img src="img/opportunities/6.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Бесплатный доступ к its.1c.ru
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/7.webp" type="image/webp"><img src="img/opportunities/7.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Резервное копирование баз
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/8.webp" type="image/webp"><img src="img/opportunities/8.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Восстановление баз силами 1С
+							</div>
+						</div>
+						<div class="opportunities__item">
+							<div class="opportunities__img">
+								<picture><source srcset="img/opportunities/9.webp" type="image/webp"><img src="img/opportunities/9.png" alt=""></picture>
+							</div>
+							<div class="opportunities__text">
+								Поддержка 24/7
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="safety">
+				<div class="safety__container">
+					<h2 class="safety__title _title">
+						<span>Безопасность</span> сервиса 1CFresh
+					</h2>
+					<div class="safety__text">
+						<p>Провайдер сервиса 1CFresh - <span>фирма 1С</span>.</p>
+						<p>Вы выбираете где хранить данные: <span>на компьютере пользователя</span> или <span>в
+								дата-центре 1С</span>.</p>
+						<p>Для передачи информации используется <span>надежный канал Интернет - HTTPS</span>.</p>
+						<p>1С <span>не имеет прав доступа</span> к данным клиентов.</p>
+					</div>
+				</div>
+			</section>
+			<section class="contacts">
+				<div class="contacts__container">
+					<div class="contacts__left">
+						<h2 class="contacts__title">
+							Задайте вопрос специалисту
+						</h2>
+						<form data-ajax method="POST" data-popup-message=".popup-response" class="contacts__form form" action="sendmail.php">
+							<div class="contacts__wrapper">
+								<div class="contacts__column">
+									<div class="form__input">
+										<input data-required type="text" name="name" autocomplete="off" placeholder="Имя..." data-error="Введите имя">
+									</div>
+									<div class="form__input">
+										<input class="phone" data-required type="tel" name="phone" autocomplete="off" placeholder="Телефон..." data-error="Введите корректный номер телефона">
+									</div>
+									<button type="submit" class="form__btn" data-da=".for__btn,767.98">
+										Отправить
+									</button>
+								</div>
+								<div class="contacts__column">
+									<div class="form__input">
+										<textarea name="" id="" placeholder="Вопрос..."></textarea>
+									</div>
+								</div>
+							</div>
+							<div class="for__btn"></div>
+						</form>
+					</div>
+					<div class="contacts__contacts">
+						<h3 class="contacts__text">
+							Контакты
+						</h3>
+						<a href="mailto:fresh@rarus.ru" class="contacts__mail">fresh@rarus.ru</a>
+						<a href="tel:84952416121" class="contacts__tel">8 (495) 241 61 21</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__text">
+					Сервис предоставляет сервис "1С-Рарус"
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" data-popup-message=".popup-response" aria-hidden="true" class="popup popup-order">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/icons/close.svg" alt="">
+				</button>
+				<div class="popup__body popup-order__body">
+					<div class="popup-callback__title">
+						Заказать
+					</div>
+					<div class="popup-callback__text">
+						Отправьте нам свои данные и мы Вам перезвоним.
+					</div>
+					<form data-ajax method="POST" class="callback-form" action="sendmail.php">
+						<div class="callback-form__input">
+							<input class="nameinputtracker" data-required type="text" name="name" autocomplete="off" placeholder="Ваше имя" data-error="Введите имя">
+						</div>
+						<div class="callback-form__input">
+							<input class="phone phoneinputtracker" data-required type="tel" name="phone" autocomplete="off" placeholder="Ваш телефон" data-error="Введите корректный номер телефона">
+						</div>
+						<div class="callback-form__bottom">
+							<button type="submit" class="callback-form__btn button buttontracker">
+								Отправить
+							</button>
+						</div>
+						<div class="popup-order__response">
+							Мы с Вами свяжемся
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup popup-response">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close">
+					<img src="img/icons/close.svg" alt="">
+				</button>
+				<div class="popup__body">
+					<h4 class="popup-response__title">
+						Скоро мы с Вами свяжемся
+					</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230321190515"></script>
+</body>
+
+</html>
